@@ -1,6 +1,11 @@
 import React from 'react'
-import CreatePost from './post/CreatePost'
+import PostList from './post/PostList'
+
+const posts = [
+  {title: "React Hooks", content: "The greatest thing since sliced bread!", author: "Barbaley"},
+  {title: "Using Fragments", content: "Keeping the DOM tree clean.", author: "Alisa Fox"}
+]
 
 export default function App (){
-  return <CreatePost />
+  return <PostList posts = {posts} />
 }
