@@ -3,6 +3,7 @@ import PostList from './post/PostList'
 import CreatePost from './post/CreatePost'
 import UserBar from './user/UserBar'
 import appReducer from './reducers'
+import Header from './Header'
 
 const defaultPosts = [
   {title: "React Hooks", content: "The greatest thing since sliced bread!", author: "Barbaley"},
@@ -24,6 +25,7 @@ export default function App (){
 
   return(
     <div style={{ padding: 8 }}>
+      <Header text="React Hooks Blog" />
       <UserBar user={user} dispatch={dispatch} />
       <br />
      { user && <CreatePost user={user} posts={posts} dispatch={dispatch} />}
