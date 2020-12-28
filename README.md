@@ -1,6 +1,4 @@
-### `yarn start
-Open http://localhost:3000
-###  npx json-server --watch server/db.json
-Open http://localhost:3000/posts/react-hooks
 ### npm start
 concurrently all
+http://localhost:3000/api/posts/react-hooks
+http://localhost:3000/api/login/Daniel%20Bugl/supersecure42
