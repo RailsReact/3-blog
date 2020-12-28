@@ -12,7 +12,7 @@ function userReducer(state, action){
 
 function postsReducer(state, action){
   switch(action.type){
-    case 'REATE_POST':
+    case 'CREATE_POST':
       const newPost = {
         title: action.title,
         content: action.content,
