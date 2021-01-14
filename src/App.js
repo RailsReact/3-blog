@@ -50,7 +50,9 @@ export default function App (){
             setTheme={setTheme}
           />
           <br />
-          <UserBar />
+          <React.Suspense fallback={"Loading..."}>
+            <UserBar />
+          </React.Suspense>
           <br />
          { user && <CreatePost />}
           <br />
