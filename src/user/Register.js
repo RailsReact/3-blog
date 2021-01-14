@@ -12,8 +12,8 @@ export default function Register({dispatch}){
   }))
 
   useEffect(() => {
-    if(user &&user.data){
-      dispatch({ type: 'REGISTER', username: user.data.username})
+    if (user && user.data) {
+        dispatch({ type: 'REGISTER', username: user.data.username })
     }
   }, [user])
  

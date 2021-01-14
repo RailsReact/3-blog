@@ -23,6 +23,11 @@
       "username": "Barmaley",
       "password": "barmaley",
       "id": 2
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "id": 3
     }
   ],
   "themes": [
